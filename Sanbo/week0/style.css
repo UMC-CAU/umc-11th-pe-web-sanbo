@@ -1,0 +1,39 @@
+.card {
+  width: 80%;
+  max-width: 500px;
+  margin: 50px auto;
+
+  padding: 30px;
+
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.card h1 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+}
+
+.skills li {
+  list-style: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: gray;
+}
